@@ -18,6 +18,7 @@ function playerHeads() {
         document.getElementById('tail_img').style.display = 'inline'
     }
 }
+
 function playerTails() {
     document.getElementById('tail_img').style.display = 'none';
     document.getElementById('head_img').style.display = 'none';
