@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: rgb(36, 36, 36);
+    min-height: 200vh;
+}
+
+#boreal {
+    z-index: 3;
+}
+
+#h1 {
+    position: relative;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 20vh;
+    z-index: 1;
+}
+
+#paragraph {
+    color: white;
+    text-align: justify;
+    margin: 3vh;
+    font-size: 5vh;
+}
+
+#road {
+    z-index: 2;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25vh;
+    background: linear-gradient(to top, rgb(36, 36, 36), transparent);
+    z-index: 3;
+}
+
+section:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #090D3E;
+    z-index: 3;
+    mix-blend-mode: hue;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
