@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn {
+    height: 8vh;
+    font-size: 3vh;
+    width: 15vw;
+    border: 0.4vh solid white;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+}
+
+#btn:hover {
+    opacity: 0.7;
+    background: black;
+}
+
+#stopwatch {
+    margin-top: 2vh;
+    border: 0.5vh solid white;
+    text-align: center;
+    color: white;
+    font-size: 30vh;
+    width: 35vw;
+    height: 35vh;
+}
+
+#description {
+    color: white;
+    font-size: 4vh;
+    width: 35vw;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+#result {
+    color: white;
+    font-size: 4vh;
+}
